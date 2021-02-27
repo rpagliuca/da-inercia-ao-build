@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+## Introdução
 
-You can use the [editor on GitHub](https://github.com/rpagliuca/da-inercia-ao-build/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Você sempre foi louco pra saber como os games simulam de forma tão espetacular as leis da física do nosso universo?! Ou então como aplicações de engenharia são capazes de calcular respostas valiosas para processos físicos extremamente complexos?!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Nessa talk veremos como construir uma engine de física rudimentar "do zero". E, de brinde, uma visão geral sobre como simular equações diferenciais diversas, como propagação de ondas e troca de calor.
 
-### Markdown
+Se você já conhece alguns dos assuntos abaixo, ótimo! E se não conhece, vai conhecer (um pouco)!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Colisões
+* Método Runge-Kutta
+* Geometria analítica
+* Equações diferenciais
+* Método das diferenças finitas
+* Método dos elementos finitos
 
-```markdown
-Syntax highlighted code block
+## Links
 
-# Header 1
-## Header 2
-### Header 3
+* Bibliotecas gráficas
+    * [OpenGL](https://www.opengl.org)
+        * [go-gl](https://github.com/go-gl)
+    * [GTK](https://www.gtk.org/)
+        * [gotk3](https://github.com/gotk3/gotk3)
+    * [Cairo](https://www.cairographics.org/)
+        * [gocairo](https://github.com/evmar/gocairo)
+    * [Vulkan](https://www.khronos.org/vulkan/)
+        * [vulkan-go](https://github.com/vulkan-go/vulkan)
+        * [vulkan-go/demos](https://github.com/vulkan-go/demos)
+* Game engines
+    * [Unreal](https://www.unrealengine.com)
+    * [Source](https://pt.wikipedia.org/wiki/Source_(motor_de_jogo))
+    * [Unity](https://unity.com)
+* Golang game libraries
+    * [Ebiten](https://ebiten.org/)
 
-- Bulleted
-- List
+## Física
 
-1. Numbered
-2. List
+### Gravidade
 
-**Bold** and _Italic_ and `Code` text
+![](<https://render.githubusercontent.com/render/math?math=F = mg>)
 
-[Link](url) and ![Image](src)
-```
+![](<https://render.githubusercontent.com/render/math?math=\Rightarrow m \ddot x = mg>)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![](<https://render.githubusercontent.com/render/math?math=\Rightarrow \ddot x = g>)
 
-### Jekyll Themes
+### Mola
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rpagliuca/da-inercia-ao-build/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![](<https://render.githubusercontent.com/render/math?math=F = -kx>)
 
-### Support or Contact
+![](<https://render.githubusercontent.com/render/math?math=\Rightarrow m \ddot x = -kx>)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![](<https://render.githubusercontent.com/render/math?math=\Rightarrow \ddot x = -(k/m)x>)
+
+![](<https://render.githubusercontent.com/render/math?math=\Rightarrow \ddot x = -\omega^2x>)
+
+### Equação de onda
+
+![](<https://render.githubusercontent.com/render/math?math=\frac{d^2u}{dt^2} = c^2\frac{d^2u}{dx^2}>)
+
+### Troca de calor
+
+TODO: Equação da troca de calor para solução com diferenças finitas
+
+## Papel de motores de física (engine de física)
+* Colisão
+* Forças (dinâmica/mecânica)
+* Ray tracing
