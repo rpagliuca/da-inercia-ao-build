@@ -37,6 +37,9 @@ Tasks
     * Wave equation 
         * d²u/dt² = c²d²u/dx² 
     * Heat transfer
+    * Equação do Caos
+
+* Comparison: simulation vs real video
 
 * References
     * Read full article at https://en.wikipedia.org/wiki/Physics_engine
