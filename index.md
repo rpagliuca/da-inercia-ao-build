@@ -13,6 +13,18 @@ Se você já conhece alguns dos assuntos abaixo, ótimo! E se não conhece, vai 
 * Método das diferenças finitas
 * Método dos elementos finitos
 
+## Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CHMlj9-EbrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uQhq9voh-fo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SBbq1wD8VqE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6dg_NGRu4DU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
+
 ## Links
 
 * Bibliotecas gráficas
