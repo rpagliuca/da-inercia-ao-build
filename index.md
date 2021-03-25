@@ -13,17 +13,28 @@ Se você já conhece alguns dos assuntos abaixo, ótimo! E se não conhece, vai 
 * Método das diferenças finitas
 * Método dos elementos finitos
 
-## Demo
+## Apresentação #TheDevConf2021
+
+### Slides
+https://docs.google.com/presentation/d/1tYFk4HBiNBm055w3Q6BlqgSmC449U-YSfpjitAAE3_A/edit?usp=sharing
+
+### Code samples
+https://github.com/rpagliuca/code-samples-da-inercia-ao-build
+
+### Repositórios auxiliares
+
+* Engine de física um pouco mais refinada, incluindo renderização com OpenGL e Ebiten: https://github.com/rpagliuca/go-physics
+* Helpers para OpenGL e go-gl: https://github.com/rpagliuca/go-gl-helpers
+
+### Vídeo (ensaio)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O6HPnl_UE48" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Renderização de algumas simulações demonstradas utilizando OpenGL e Ebiten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CHMlj9-EbrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uQhq9voh-fo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SBbq1wD8VqE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6dg_NGRu4DU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
-
-
 
 ## Links
 
